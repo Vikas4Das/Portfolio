@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Welcome to Vikas Das's portfolio! A passionate Full Stack Developer specializing in interactive and responsive web applications. Explore projects, skills, and get in touch!">
+    <meta name="keywords" content="Vikas Das, Full Stack Developer, Web Development, JavaScript, HTML, CSS, Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Das | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">Vikas Das</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <div class="nav-links-wrapper" id="navLinks">
+            <span class="close-btn" onclick="toggleMenu()">×</span>
+            <ul class="nav-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+        <div class="profile-pic">
+            <img src="IMG/VIKAS_DAS.png" alt="Vikas Das">
+        </div>
+    </nav>
+
+
+
+    <section id="home" class="hero-section">
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <h2>Hi, I'm Vikas Das</h2>
+            <p>
+                <span class="typing-animation"></span>
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/vikas-das-1271532a3/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Vikas04Das" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/Vikas4das" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vikas4das/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@vikasvibes04" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="buttons">
+                <a href="IMG/Vikas_Das_CV.pdf" download="Vikas_Das_CV.pdf">
+                    <button>Download CV</button>
+                </a>
+                <button onclick="window.location.href='#contact'">Hire Me</button> 
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="IMG/VIKAS_DAS.png" alt="Vikas Das">
+            <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section id="about" class="about-section">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-container">
+            <div class="profile-pic2">
+                <img src="IMG/VIKAS_DAS.png" alt="Profile Picture">
+            </div>
+            <div class="about-content">
+                <p>I am <strong>Vikas Das</strong>, a B.Tech student in <strong>Computer Science and Engineering</strong> at <strong>Centurion University, Bhubaneswar</strong>. As a passionate <strong>Software Developer</strong> and <strong>Full-Stack Developer</strong>, I specialize in creating <strong>interactive</strong> and <strong>responsive</strong> web applications using <strong>JavaScript, HTML, and CSS</strong>. My expertise extends to <strong>Cloud Engineering</strong> for scalable solutions and <strong>Mobile App Development</strong> for user-centric experiences. With skills as a <strong>Computer Systems Engineer</strong>, I design efficient systems and leverage my abilities as a <strong>UI/UX Designer</strong> to craft intuitive interfaces. As a <strong>Prompt Engineer</strong>, I enhance AI-driven solutions and share my knowledge as a <strong>YouTuber</strong>. I thrive in <strong>collaborative environments</strong> and continuously expand my skill set by exploring emerging technologies and industry trends.</p>
+
+                <button class="contact-btn" onclick="window.location.href='#contact'">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>AI Tools</h3>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=YWOidjGxCpFW&format=png&color=000000" alt="DeepSeek">
+                    <p>DeepSeek</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=ka3InxFU3QZa&format=png&color=000000" alt="OpenAI">
+                    <p>OpenAI</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=8QGE7uQedCwQ&format=png&color=000000" alt="Grok">
+                    <p> Grok</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=DjIepIJcTOZ3&format=png&color=000000" alt="Zapier">
+                    <p> Zapier Agents</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=H5H0mqCCr5AV&format=png&color=000000" alt="Claude">
+                    <p> Claude</p>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/html-5.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/css3.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/javascript.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=WoopfRcDj3RF&format=png&color=000000"
+                        alt="tailwindcss">
+                    <p>Tailwind CSS</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/react-native.png" alt="React">
+                    <p>React</p>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="SQL">
+                    <p>SQL</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt="PostgreSQL">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="Spring">
+                    <p>Spring Boot</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/nodejs.png" alt="Node.js">
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/mongodb.png" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>App Dev</h3>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=EgOU93v1DHjU&format=png&color=000000" alt="Android">
+                    <p>Android Studio</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="Docker">
+                    <p>Docker</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000" alt="Firebase">
+                    <p>Firebase</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/flutter.png" alt="Flutter">
+                    <p>Flutter</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/kotlin.png" alt="Kotlin">
+                    <p>Kotlin</p>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Language</h3>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=shQTXiDQiQVR&format=png&color=000000" alt="C">
+                    <p>C</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=TpULddJc4gTh&format=png&color=000000" alt="C++">
+                    <p>C++</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=Rc0Xn5AtE8kX&format=png&color=000000" alt="PYTHON">
+                    <p>Python</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="JAVA">
+                    <p>Java</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/color/50/linux.png" alt="DSA">
+                    <p>DSA</p>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>General</h3>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=0OQR1FYCuA9f&format=png&color=000000" alt="vscode">
+                    <p>VS Code</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000" alt="Github">
+                    <p>Github</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=65231&format=png&color=000000" alt="Blender">
+                    <p>Blender</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=13677&format=png&color=000000" alt="Photoshop">
+                    <p>Photoshop</p>
+                </div>
+                <div class="skill-box">
+                    <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="design">
+                    <p>Figma/Lunacy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="education"" class=" education-section">
+        <h2>Education</h2>
+        <div class="education-box">
+            <div class="education-item">
+                <h3>GDG Member</h3>
+                <p><strong>Duration:</strong> 2024 - Present</p>
+                <p>As an active member of the <strong>Google Developer Group (GDG) Bhubaneswar</strong>, I have engaged
+                    in a variety of developer meetups, workshops, and hackathons.</p>
+            </div>
+            <div class="education-item">
+                <h3>B.Tech in Computer Science</h3>
+                <p><strong>Institution:</strong> Centurion University, Bhubaneswar,Odisha</p>
+                <p><strong>Duration:</strong> 2023 - 2027</p>
+                <p>I am currently pursuing a B.Tech in Computer Science and Engineering with a
+                    focus
+                    <strong>full-stack developer
+                        and software engineering</strong>
+                </p>
+            </div>
+            <div class="education-item">
+                <h3>Senior Secondary Science</h3>
+                <p><strong>Institution:</strong> Hansraj Model Sr. Sec. School Rohini , New Delhi</p>
+                <p><strong>Duration:</strong> 2021 - 2023</p>
+                <p>Completed my 12th grade with a specialization in <strong>Physics, Chemistry, and Mathematics
+                        (PCM)</strong></p>
+            </div>
+            <div class="education-item">
+                <h3>Secondary Education</h3>
+                <p><strong>Institution:</strong> Dayawati Modi Public School, Chandil, Jharkhand</p>
+                <p><strong>Duration:</strong> 2019 - 2021</p>
+                <p> Secured excellent grades with a focus on foundational subjects like Mathematics and Computer Science
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="IMG/p2.png" alt="EduFree">
+                <h3>EduFree</h3>
+                <div class="project-buttons">
+                    <a href="https://github.com/Vikas04Das/EduFree" target="_blank">Show Code</a>
+                    <a href="https://vikas04das.github.io/EduFree/index.html" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="IMG/p1.png" alt="Demo_Portfolio">
+                <h3>Demo_Portfolio</h3>
+                <div class="project-buttons">
+                    <a href="https://github.com/Vikas04Das/Demo_Portfolio" target="_blank">Show Code</a>
+                    <a href="https://vikas04das.github.io/Demo_Portfolio/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="IMG/p3.png" alt="Tic_Tac_Toe_Game">
+                <h3>Tic_Tac_Toe_Game</h3>
+                <div class="project-buttons">
+                    <a href="https://github.com/Vikas04Das/Tic_Tac_Toe_Game" target="_blank">Show Code</a>
+                    <a href="https://vikas04das.github.io/Tic_Tac_Toe_Game/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="IMG/p4.png" alt="Age and Gender Detection">
+                <h3>Age & GenderDetection</h3>
+                <div class="project-buttons">
+                    <a href="https://github.com/Vikas04Das/AGE_AND_GENDER_DETECTION" target="_blank">Show Code</a>
+                    <a href="https://github.com/Vikas04Das/AGE_AND_GENDER_DETECTION" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="IMG/p5.png" alt="Pinterest_Clone_UI">
+                <h3>Pinterest_Clone_UI</h3>
+                <div class="project-buttons">
+                    <a href="https://github.com/Vikas04Das/Pinterest_Clone_UI" target="_blank">Show Code</a>
+                    <a href="https://vikas04das.github.io/Pinterest_Clone_UI/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="IMG/p6.png" alt="Furniture_Shop_UI">
+                <h3>Furniture_Shop_UI</h3>
+                <div class="project-buttons">
+                    <a href="https://github.com/Vikas04Das/Furniture_Shop_UI" target="_blank">Show Code</a>
+                    <a href="https://vikas04das.github.io/Furniture_Shop_UI/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="#" alt="img">
+                <h3>Soon...</h3>
+                <div class="project-buttons">
+                    <a href="#" target="_blank">Show Code</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="#" alt="img">
+                <h3>Soon...</h3>
+                <div class="project-buttons">
+                    <a href="#" target="_blank">Show Code</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you have any questions, suggestions, or just want to say hi, feel free to drop a message! 😊</p>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="bc332ff0-7681-4316-b6bd-3e9cfe8ed0af">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>Vikas Das</h2>
+                <p>Full-Stack Developer | Passionate about building scalable web applications.</p>
+            </div>
+            <div class="footer-nav">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Connect with Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vikas-das-1271532a3/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Vikas04Das" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/Vikas4das" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/vikas4das/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@vikasvibes04" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Vikas Das. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
