@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   box-sizing: border-box;
 }
@@ -12,17 +12,16 @@ body {
 }
 
 .navbar {
-  display: flex
-  ;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 100%;
-      margin: 0 auto;
-      position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2px;
   background-color: #000000;
   position: fixed;
   top: 0;
@@ -114,7 +113,7 @@ body {
   font-size: 30px;
   color: #e63946;
   cursor: pointer;
-  margin-right: 20px;
+  
   padding: 10px;
 }
 
@@ -691,7 +690,7 @@ body {
 
 .skill-category {
   background-color: #1d1d1d;
-  padding: 15px;
+  padding: 25px;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
   border: 2px solid transparent;
@@ -802,7 +801,7 @@ body {
 
 .education-box {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   max-width: 1400px;
   margin: 0 auto;
@@ -815,7 +814,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
   transition: transform 0.3s ease-in-out, border 0.3s ease-in-out,
-    box-shadow 0.3s ease-in-out;
+  box-shadow 0.3s ease-in-out;
   cursor: pointer;
   border: 2px solid transparent;
   position: relative;
@@ -838,7 +837,7 @@ body {
 .education-item h3 {
   color: #e63946;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 24px;
   position: relative;
   z-index: 1;
 
@@ -853,6 +852,7 @@ body {
   position: relative;
   z-index: 1;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .education-item:hover {
