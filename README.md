@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This is where I showcase my projects, skills, and experience as a **Full-Stack Developer**.
 
 ## 🌐 Live Demo
-Check out my portfolio: [Vikas Das Portfolio](https://your-portfolio-link.com)
+Check out my portfolio: [Vikas Das Portfolio]([https://your-portfolio-link.com](https://vikas04das.github.io/Portfolio/))
 
 ---
 
