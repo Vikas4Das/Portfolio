@@ -222,3 +222,16 @@ document.addEventListener("click", (event) => {
     navLinksWrapper.classList.remove("show");
   }
 });
+
+
+  window.addEventListener('scroll', () => {
+    document.querySelectorAll('.education-item').forEach(item => {
+      const rect = item.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        item.classList.add('show');
+      }
+    });
+  });
+
+
+  
