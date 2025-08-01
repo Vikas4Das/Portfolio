@@ -16,69 +16,74 @@
 <body>
 
 
-    <nav class="navbar">
-        <div class="logo">Vikas Das</div>
-        <div class="hamburger" onclick="toggleMenu()">☰</div>
-        <div class="nav-links-wrapper" id="navLinks">
-            <span class="close-btn" onclick="toggleMenu()">×</span>
-            <ul class="nav-links">
-                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </ul>
-        </div>
-        <div class="profile-pic">
-            <img src="IMG/VIKAS_DAS.png" alt="Vikas Das">
-        </div>
-    </nav>
+    <div id="loader">
+        <img src="IMG/pre.gif" alt="Loading..." />
+    </div>
+    <div id="main-content" style="display: none;">
+
+        <nav class="navbar">
+            <div class="logo">Vikas Das</div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <div class="nav-links-wrapper" id="navLinks">
+                <span class="close-btn" onclick="toggleMenu()">×</span>
+                <ul class="nav-links">
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+            <div class="profile-pic">
+                <img src="IMG/VIKAS_DAS.png" alt="Vikas Das">
+            </div>
+        </nav>
 
 
 
-    <section id="home" class="hero-section">
-        <div class="content">
-            <h1>Welcome to My Portfolio</h1>
-            <h2>Hi, I'm Vikas Das</h2>
-            <p>
-                <span class="typing-animation"></span>
-            </p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/vikas-das-1271532a3/" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Vikas4Das" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://x.com/Vikas4das" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/vikas4das/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/@vikasvibes04" target="_blank"><i class="fab fa-youtube"></i></a>
+        <section id="home" class="hero-section">
+            <div class="content">
+                <h1>Welcome to My Portfolio</h1>
+                <h2>Hi, I'm Vikas Das</h2>
+                <p>
+                    <span class="typing-animation"></span>
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vikas-das-1271532a3/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Vikas4Das" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/Vikas4das" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/vikas4das/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@vikasvibes04" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="buttons">
+                    <a href="IMG/Vikas.pdf" download="Vikas_Das_CV.pdf"><button>Download CV</button></a>
+                    <button id="b2" onclick="window.location.href='#contact'">Hire Me</button>
+                </div>
             </div>
-            <div class="buttons">
-                <a href="IMG/Vikas.pdf" download="Vikas_Das_CV.pdf"><button>Download CV</button></a>
-                <button id="b2" onclick="window.location.href='#contact'">Hire Me</button> 
+            <div class="image-section">
+                <img src="IMG/VIKAS_DAS.png" alt="Vikas Das">
+                <div class="circle-container">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
             </div>
-        </div>
-        <div class="image-section">
-            <img src="IMG/VIKAS_DAS.png" alt="Vikas Das">
-            <div class="circle-container">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-            </div>
-        </div>
-        </div>
+    </div>
     </section>
 
 
@@ -90,7 +95,19 @@
                 <img src="IMG/VIKAS_DAS.png" alt="Profile Picture">
             </div>
             <div class="about-content">
-                <p>Hi,I'm <strong>Vikas Das</strong> a passionate Full-Stack Developer , a B.Tech student in <strong>Computer Science and Engineering</strong> at <strong>Centurion University, Bhubaneswar</strong>. As a passionate <strong>Software Developer</strong> and <strong>Full-Stack Developer</strong>, I specialize in creating <strong>interactive</strong> and <strong>responsive</strong> web applications using <strong>JavaScript, HTML, and CSS</strong>. My expertise extends to <strong>Cloud Engineering</strong> for scalable solutions and <strong>Mobile App Development</strong> for user-centric experiences. With skills as a <strong>Computer Systems Engineer</strong>, I design efficient systems and leverage my abilities as a <strong>UI/UX Designer</strong> to craft intuitive interfaces. As a <strong>Prompt Engineer</strong>, I enhance AI-driven solutions and share my knowledge as a <strong>YouTuber</strong>. I thrive in <strong>collaborative environments</strong> and continuously expand my skill set by exploring emerging technologies and industry trends.</p>
+                <p>Hi,I'm <strong>Vikas Das</strong> a passionate Full-Stack Developer , a B.Tech student in
+                    <strong>Computer Science and Engineering</strong> at <strong>Centurion University,
+                        Bhubaneswar</strong>. As a passionate <strong>Software Developer</strong> and <strong>Full-Stack
+                        Developer</strong>, I specialize in creating <strong>interactive</strong> and
+                    <strong>responsive</strong> web applications using <strong>JavaScript, HTML, and CSS</strong>. My
+                    expertise extends to <strong>Cloud Engineering</strong> for scalable solutions and <strong>Mobile
+                        App Development</strong> for user-centric experiences. With skills as a <strong>Computer Systems
+                        Engineer</strong>, I design efficient systems and leverage my abilities as a <strong>UI/UX
+                        Designer</strong> to craft intuitive interfaces. As a <strong>Prompt Engineer</strong>, I
+                    enhance AI-driven solutions and share my knowledge as a <strong>YouTuber</strong>. I thrive in
+                    <strong>collaborative environments</strong> and continuously expand my skill set by exploring
+                    emerging technologies and industry trends.
+                </p>
 
                 <button class="contact-btn" onclick="window.location.href='#contact'">Let's Talk</button>
             </div>
@@ -247,8 +264,6 @@
     </section>
 
 
-
-
     <section id="education"" class=" education-section">
         <h2>Education</h2>
         <div class="education-box">
@@ -287,31 +302,27 @@
 
 
     <section class="experience-section">
-  <h2>Internships & Jobs</h2>
-  <div class="education-box">
-    <div class="education-item show">
-      <h3>Internship at BLUESTOCK</h3>
-      <p><strong>Role:</strong>Software Development Engineer (SDE)</p>
-      <p><strong>Duration:</strong> 1 Feb 2025 - 28 Mar 2025</p>
-      <p><strong>Description:</strong>Built internal tools using React.js and Node.js for frontend and backend development</p>
-    </div>
+        <h2>Internships & Jobs</h2>
+        <div class="education-box">
+            <div class="education-item show">
+                <h3>Internship at BLUESTOCK</h3>
+                <p><strong>Role:</strong>Software Development Engineer (SDE)</p>
+                <p><strong>Duration:</strong> 1 Feb 2025 - 28 Mar 2025</p>
+                <p><strong>Description:</strong>Built internal tools using React.js and Node.js for frontend and backend
+                    development</p>
+            </div>
 
-    <div class="education-item show">
-      <h3>Job at Soon...</h3>
-      <p><strong>Role:</strong> Soon... </p>
-      <p><strong>Duration:</strong> Soon ... </p>
-      <p><strong>Description:</strong>Soon...</p>
-    </div>
-  </div>
-</section>
-
-
-
+            <div class="education-item show">
+                <h3>Job at Soon...</h3>
+                <p><strong>Role:</strong> Soon... </p>
+                <p><strong>Duration:</strong> Soon ... </p>
+                <p><strong>Description:</strong>Soon...</p>
+            </div>
+        </div>
+    </section>
 
 
-
-
- <section  class="projects-section">
+    <section class="projects-section">
         <h2>Certificates</h2>
         <div class="projects-grid">
             <div class="project-card">
@@ -345,44 +356,10 @@
                 </div>
             </div>
 
-           
+
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
     <section id="projects" class="projects-section">
         <h2>Projects</h2>
@@ -499,7 +476,7 @@
                 <h2>Vikas Das</h2>
                 <p>Full-Stack Developer | Passionate about building scalable web applications.</p>
             </div>
-            
+
             <div class="footer-social">
                 <h3>Connect with Me</h3>
                 <div class="social-icons">
@@ -516,6 +493,7 @@
             <p>&copy; 2025 Vikas Das. All rights reserved.</p>
         </div>
     </footer>
+    </div>
 </body>
 
 </html>

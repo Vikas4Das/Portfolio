@@ -1,22 +1,21 @@
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("main-content").style.display = "block";
+  }, 3000);
+});
 
 const hamburger = document.querySelector(".hamburger");
 const navLinksWrapper = document.querySelector(".nav-links-wrapper");
 const closeBtn = document.querySelector(".close-btn");
 
-
 hamburger.addEventListener("click", () => {
   navLinksWrapper.classList.toggle("show");
 });
 
-
-
-
 closeBtn.addEventListener("click", () => {
   navLinksWrapper.classList.remove("show");
 });
-
-
-
 
 document.addEventListener("scroll", function () {
   const animatedElements = document.querySelectorAll(".animated");
@@ -28,11 +27,6 @@ document.addEventListener("scroll", function () {
     }
   });
 });
-
-
-
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const educationItems = document.querySelectorAll(".education-item");
@@ -48,11 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
       if (itemTop < triggerBottom) {
         item.classList.add("show");
         if (currentScrollY > lastScrollY) {
-          
           item.classList.add(index % 2 === 0 ? "slide-up" : "slide-up");
           item.classList.remove(index % 2 === 0 ? "slide-down" : "slide-down");
         } else {
-        
           item.classList.add(index % 2 === 0 ? "slide-down" : "slide-down");
           item.classList.remove(index % 2 === 0 ? "slide-up" : "slide-up");
         }
@@ -65,14 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   window.addEventListener("scroll", revealOnScroll);
-  revealOnScroll(); 
+  revealOnScroll();
 });
-
-
-
-
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const projectCards = document.querySelectorAll(".project-card");
@@ -89,11 +75,9 @@ document.addEventListener("DOMContentLoaded", function () {
         card.classList.add("show");
 
         if (currentScrollY > lastScrollY) {
-        
           card.classList.add(index % 2 === 0 ? "slide-up" : "slide-up");
           card.classList.remove(index % 2 === 0 ? "slide-down" : "slide-down");
         } else {
-          
           card.classList.add(index % 2 === 0 ? "slide-up" : "slide-down");
           card.classList.remove(index % 2 === 0 ? "slide-up" : "slide-up");
         }
@@ -106,76 +90,66 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   window.addEventListener("scroll", revealOnScroll);
-  revealOnScroll(); 
+  revealOnScroll();
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollElements = document.querySelectorAll(
+    ".about-section, .section-heading, .about-container, .profile-pic2, .about-content, .contact-btn"
+  );
 
+  const elementInView = (el, dividend = 1) => {
+    const elementTop = el.getBoundingClientRect().top;
+    return (
+      elementTop <=
+      (window.innerHeight || document.documentElement.clientHeight) / dividend
+    );
+  };
 
+  const displayScrollElement = (element) => {
+    element.classList.add("scroll-visible");
+  };
 
+  const hideScrollElement = (element) => {
+    element.classList.remove("scroll-visible");
+  };
 
-
-  document.addEventListener("DOMContentLoaded", function () {
-    const scrollElements = document.querySelectorAll(".about-section, .section-heading, .about-container, .profile-pic2, .about-content, .contact-btn");
-
-    const elementInView = (el, dividend = 1) => {
-      const elementTop = el.getBoundingClientRect().top;
-      return (
-        elementTop <=
-        (window.innerHeight || document.documentElement.clientHeight) / dividend
-      );
-    };
-
-    const displayScrollElement = (element) => {
-      element.classList.add("scroll-visible");
-    };
-
-    const hideScrollElement = (element) => {
-      element.classList.remove("scroll-visible");
-    };
-
-    const handleScrollAnimation = () => {
-      scrollElements.forEach((el) => {
-        if (elementInView(el, 1.25)) {
-          displayScrollElement(el);
-        } else {
-          hideScrollElement(el);
-        }
-      });
-    };
-
-    window.addEventListener("scroll", () => {
-      handleScrollAnimation();
+  const handleScrollAnimation = () => {
+    scrollElements.forEach((el) => {
+      if (elementInView(el, 1.25)) {
+        displayScrollElement(el);
+      } else {
+        hideScrollElement(el);
+      }
     });
+  };
+
+  window.addEventListener("scroll", () => {
+    handleScrollAnimation();
   });
-
-
-
-
-
-
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         setTimeout(() => {
-          entry.target.classList.add('show');
-        }, entry.target.dataset || 0);  
+          entry.target.classList.add("show");
+        }, entry.target.dataset || 0);
       } else {
-        entry.target.classList.remove('show');
+        entry.target.classList.remove("show");
       }
     });
   });
 
-  const sections = document.querySelectorAll('.skills-section, .skills-section h2, .skill-category, .skill-box');
+  const sections = document.querySelectorAll(
+    ".skills-section, .skills-section h2, .skill-category, .skill-box"
+  );
   sections.forEach((section, index) => {
-    section.dataset.delay = index * 100;  
+    section.dataset.delay = index * 100;
     observer.observe(section);
   });
 });
-
-
-
 
 const words = [
   "Software Developer",
@@ -214,7 +188,6 @@ function typeEffect() {
 
 document.addEventListener("DOMContentLoaded", typeEffect);
 
-
 document.addEventListener("click", (event) => {
   const isClickInside =
     navLinksWrapper.contains(event.target) || hamburger.contains(event.target);
@@ -223,15 +196,11 @@ document.addEventListener("click", (event) => {
   }
 });
 
-
-  window.addEventListener('scroll', () => {
-    document.querySelectorAll('.education-item').forEach(item => {
-      const rect = item.getBoundingClientRect();
-      if (rect.top < window.innerHeight - 100) {
-        item.classList.add('show');
-      }
-    });
+window.addEventListener("scroll", () => {
+  document.querySelectorAll(".education-item").forEach((item) => {
+    const rect = item.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      item.classList.add("show");
+    }
   });
-
-
-  
+});
