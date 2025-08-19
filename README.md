@@ -1,40 +1,53 @@
-# 🌐 Vikas Das - Portfolio Website
+<h1 align="center">🚀 Vikas Das - Portfolio Website</h1>
 
-![Portfolio Preview](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=github)
-[![Website](https://img.shields.io/badge/View%20Site-Click%20Here-blue?style=for-the-badge&logo=google-chrome)](https://vikas4das.github.io/Portfolio/)
+<p align="center">
+  <a href="https://vikas4das.github.io/Portfolio/">
+    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=google-chrome" />
+  </a>
+  <a href="https://github.com/Vikas4Das/Portfolio/stargazers">
+    <img src="https://img.shields.io/github/stars/Vikas4Das/Portfolio?style=for-the-badge&color=yellow" />
+  </a>
+  <a href="https://github.com/Vikas4Das">
+    <img src="https://img.shields.io/badge/GitHub-VikasDas-black?style=for-the-badge&logo=github" />
+  </a>
+</p>
 
 ---
 
 ## 📌 About
-This is my **personal portfolio website** showcasing my journey as a **Full-Stack Developer**.  
-It includes details about me, my skills, education, and projects. The site is built with a **responsive and modern design** for both desktop and mobile users.  
+Welcome to my **personal portfolio website**, where I showcase my journey as a  
+🌟 **Full-Stack Developer | UI/UX Enthusiast | Tech Explorer** 🌟  
+
+It highlights my **skills, projects, education, and achievements** in a clean, responsive, and professional way.
 
 ---
 
-## 🚀 Features
-✅ Responsive UI Design  
-✅ Smooth Navigation  
-✅ Project Showcase with Links  
-✅ Contact Section with Socials  
-✅ Hosted on GitHub Pages  
+## ✨ Features
+- 📱 Fully **Responsive Design**
+- 🖥️ **Modern UI/UX** with smooth navigation
+- 📂 **Projects showcase** with links
+- 📬 **Contact section** for easy connection
+- ☁️ **Hosted on GitHub Pages**
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML, CSS, JavaScript  
-- **Design:** TailwindCSS (optional, if used), Custom CSS  
-- **Deployment:** GitHub Pages  
+| **Category**   | **Technologies Used** |
+|----------------|-------------------------|
+| 🌐 Frontend   | HTML, CSS, JavaScript   |
+| 🎨 Styling    |  CSS 
+| 🚀 Hosting    | GitHub Pages            |
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 ```bash
 Portfolio/
-│── index.html          # Main homepage  
-│── about.html          # About section  
-│── skills.html         # Skills showcase  
-│── projects.html       # Projects listing  
-│── contact.html        # Contact page  
-│── assets/             # Images, Icons, Fonts  
+│── index.html          # Homepage  
+│── about.html          # About Me  
+│── skills.html         # Skills Section  
+│── projects.html       # Projects Showcase  
+│── contact.html        # Contact Page  
+│── assets/             # Images, Fonts, Icons  
 │── css/                # Stylesheets  
-│── js/                 # JavaScript files  
+│── js/                 # JavaScript Files  
