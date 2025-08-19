@@ -1,32 +1,40 @@
-# 🖥️ Vikas Das - Portfolio Website
+# 🌐 Vikas Das - Portfolio Website
 
-Welcome to my personal portfolio website! This is where I showcase my projects, skills, and experience as a **Full-Stack Developer**.
-
-## 🌐 Live Demo
-Check out my portfolio: https://vikas4das.github.io/Portfolio/
+![Portfolio Preview](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=github)
+[![Website](https://img.shields.io/badge/View%20Site-Click%20Here-blue?style=for-the-badge&logo=google-chrome)](https://vikas4das.github.io/Portfolio/)
 
 ---
 
-## 📋 Table of Contents
-- [About Me](#about-me)
-- [Skills](#skills)
-- [Projects](#projects)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Contact](#contact)
+## 📌 About
+This is my **personal portfolio website** showcasing my journey as a **Full-Stack Developer**.  
+It includes details about me, my skills, education, and projects. The site is built with a **responsive and modern design** for both desktop and mobile users.  
 
 ---
 
-## 👨‍💻 About Me
-I am **Vikas Das**, a **Full-Stack Developer** and a **B.Tech CSE student** at **Centurion University, Bhubaneswar (2023-2027)** with a current **CGPA of 8.5**. I have a passion for building dynamic and responsive web applications. I am actively involved in coding clubs and have participated in various inter-college coding competitions.
+## 🚀 Features
+✅ Responsive UI Design  
+✅ Smooth Navigation  
+✅ Project Showcase with Links  
+✅ Contact Section with Socials  
+✅ Hosted on GitHub Pages  
 
 ---
 
-## 🛠️ Skills
-- **Frontend:** HTML, CSS, JavaScript, React
-- **Backend:** Node.js, Express
-- **Database:** MongoDB, MySQL
-- **Tools & Platforms:** Git, GitHub, VS Code
-- **Others:** UI/UX Design, API Integration
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **Design:** TailwindCSS (optional, if used), Custom CSS  
+- **Deployment:** GitHub Pages  
 
+---
+
+## 📂 Project Structure
+```bash
+Portfolio/
+│── index.html          # Main homepage  
+│── about.html          # About section  
+│── skills.html         # Skills showcase  
+│── projects.html       # Projects listing  
+│── contact.html        # Contact page  
+│── assets/             # Images, Icons, Fonts  
+│── css/                # Stylesheets  
+│── js/                 # JavaScript files  
